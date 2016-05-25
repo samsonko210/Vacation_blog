@@ -1,1 +1,85 @@
 <!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Blog Vacation: Korea
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		$('.letsgetstarted-btn').click(function(event) {
+    		event.preventDefault();
+    		var n = $(document).height();
+    	$('html, body').animate({ scrollTop: n }, 2000);
+		});
+	});
+</script>
+	<style>
+	body {
+		padding: 0;
+		margin: 0;
+		left: 0;
+		border: none;
+		}
+	.titlewords {
+		top: 100px;
+		position: absolute;
+		height: 80px;
+		left: 26%;
+		font-size: 80px;
+		opacity: 1;
+		border: none;
+		background-color: transparent;
+		color: white;
+		z-index: 9999;
+		font-weight: 800;
+		font-family: 'Paytone One', sans-serif;	
+		}
+	.letsgetstarted-btn {
+		text-decoration: none;
+		top: 240px;
+		position: absolute;
+		left: 43%;
+		height: 40px;
+		font-size: 30px;
+		opacity: 1;
+		border: solid white 1px;
+		background-color: transparent;
+		color: white;
+		z-index: 9999;
+		font-weight: 800;
+		font-family: 'Paytone One', sans-serif;	
+		}
+	.letsgetstarted-btn:hover {
+		opacity: .8;
+	}
+	.airporttext {
+		top: 980px;
+		left: 700px;
+		background-color: transparent;
+		color: black;
+		font-weight: 800;
+		font-size: 32px;
+		position: absolute;
+		width: 700px;
+		height: 520px;
+
+
+	}
+	</style>
+</head>	
+<body>
+	<img src = "file:///Users/jaeminko/Desktop/Web/BlogVacation/img/background.jpg" style = "width: 100%;height: 810px; z-index: 9997; opacity: .8"></img>
+	<a class = "letsgetstarted-btn" href = "#intro">Let's get started </a>
+	<div class = "titlewords">Trip to Jeju Island </div>
+	<div id = "intro">
+		<img src = "file:///Users/jaeminko/Desktop/Web/BlogVacation/img/enochairport.jpg" style = "width: 45%; height:810px; z-index: 9997;"> </img>
+	</div>
+	<div class = "airporttext">
+		We started the trip off on a rough note. My oldest brother lost his luggage through a glitch in the TSA's data base and we had to leave for Jeju without it.
+		<br />
+		<br />
+		You could sense the sadness in his eyes.
+	</div>
+</body>
+</html>
